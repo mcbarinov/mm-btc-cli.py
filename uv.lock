@@ -557,7 +557,7 @@ wheels = [
 
 [[package]]
 name = "mm-btc"
-version = "0.1.3"
+version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "bit" },
@@ -565,16 +565,15 @@ dependencies = [
     { name = "hdwallet" },
     { name = "mm-std" },
     { name = "mnemonic" },
-    { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/90/fe/fd5a19aa24b95ef97db426076c105d040ce51419a70202cd5ffb139d9e44/mm_btc-0.1.3.tar.gz", hash = "sha256:79d508c134325ff48f429a905fcd7fd7473636d13a894d622dda95fa413cab85", size = 50641 }
+sdist = { url = "https://files.pythonhosted.org/packages/01/ac/bce0df18934eb2d7d161621fcee68ee4c7fe4913ef1cc62aa4306ce31de7/mm_btc-0.2.0.tar.gz", hash = "sha256:ff87826267fa04bd64a34d9fb351e3784552fd4cffca584213a7a8a74ae2a095", size = 48012 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/92/08/4abc129f6a763a22d49daf0bc3f0b47a28e6d9faecaae08f233ddf6841ec/mm_btc-0.1.3-py3-none-any.whl", hash = "sha256:b4c4d3347d50652ce538b497f033c0292096fb7b8f922812598674501ff42461", size = 7698 },
+    { url = "https://files.pythonhosted.org/packages/9b/b9/6cb39517e875ffad693d1bec81f64e9b4f7a74547e0f702ab7e5ed4b864e/mm_btc-0.2.0-py3-none-any.whl", hash = "sha256:5b1f80f8fd27864b1b89d9bf5fe9f53e094b6726579b9d5026205617e084655a", size = 3633 },
 ]
 
 [[package]]
 name = "mm-btc-cli"
-version = "0.0.1"
+version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "mm-btc" },
@@ -594,7 +593,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "mm-btc", specifier = "~=0.1.3" },
+    { name = "mm-btc", specifier = "~=0.2.0" },
     { name = "typer", specifier = ">=0.15.1" },
 ]
 
